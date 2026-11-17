@@ -1,2 +1,6 @@
-* linguist-detectable=false
-*.cs linguist-detectable=true
+# Excluir assets de terceros de las estadísticas de lenguaje
+Assets/TextMesh*Pro/** linguist-vendored
+Assets/Plugins/** linguist-vendored
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
