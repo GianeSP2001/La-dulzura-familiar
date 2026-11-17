@@ -58,7 +58,7 @@ public class GameModeManager : MonoBehaviour
         noticeText.gameObject.SetActive(false);
     }
 
-    // Para pruebas: menú ⋮ del componente > "Borrar progreso guardado"
+    // Para pruebas: menú del componente > "Borrar progreso guardado"
     [ContextMenu("Borrar progreso guardado")]
     private void ResetProgress()
     {
