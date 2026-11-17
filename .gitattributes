@@ -3,5 +3,5 @@
 *.hlsl linguist-detectable=false
 *.compute linguist-detectable=false
 *.shadergraph linguist-detectable=false
-Assets/TextMesh Pro/** linguist-vendored
-Assets/Plugins/** linguist-vendored
+**/TextMesh Pro/** linguist-vendored
+**/Plugins/** linguist-vendored
