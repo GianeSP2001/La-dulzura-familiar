@@ -1,7 +1,8 @@
-*.shader linguist-generated=true
-*.cginc linguist-generated=true
-*.hlsl linguist-generated=true
-*.compute linguist-generated=true
-*.shadergraph linguist-generated=true
-Assets/TextMesh?Pro/** linguist-vendored
-Assets/Plugins/** linguist-vendored
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.compute linguist-detectable=false
+*.shadergraph linguist-detectable=false
+*.shadersubgraph linguist-detectable=false
+Assets/TextMesh* linguist-vendored
+Assets/Plugins/* linguist-vendored
