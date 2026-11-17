@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49ecf72d53c3de439943fee16b84912, type: 3}
+  m_Name: Arroz con leche
+  m_EditorClassIdentifier: 
+  title: Arroz con leche
+  story: "Mi abuela escribi\xF3: para empezar, la olla necesita leche. Usa los recipientes
+    de la cocina."
+  ingredients:
+  - Leche
+  - Arroz
+  - Canela
+  - Azucar
+  challenge: "Re\xFAne 500 ml de leche vertiendo los recipientes en la olla."
+  targetMl: 500
+  challenges:
+  - prompt: "Re\xFAne 500 ml de leche usando los recipientes."
+    startMl: 0
+    targetMl: 500
+    allowOverflow: 0
+    enabledMeasures: 64000000c80000002c01000090010000
+  - prompt: "La olla ya tiene 200 ml. \xBFCu\xE1nto falta para llegar a 500 ml?"
+    startMl: 200
+    targetMl: 500
+    allowOverflow: 0
+    enabledMeasures: 64000000c80000002c01000090010000
+  - prompt: "Vierte el recipiente de 400 ml. \xBFQu\xE9 pasar\xE1? Luego corr\xEDgelo."
+    startMl: 400
+    targetMl: 500
+    allowOverflow: 1
+    enabledMeasures: 64000000c80000002c01000090010000
