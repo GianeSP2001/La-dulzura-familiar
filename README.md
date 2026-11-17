@@ -22,7 +22,7 @@ Una niña hereda la dulcería tradicional de su familia y debe desbloquear las r
 
 <img width="810" height="527" alt="JuegoRecetaA1" src="https://github.com/user-attachments/assets/babce277-9092-466d-a128-128189ca57a6" />
 
-## Arquitectura (En construcción)
+## Arquitectura
 
 | Script | Responsabilidad |
 | :--- | :--- |
